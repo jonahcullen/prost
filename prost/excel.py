@@ -67,7 +67,8 @@ import xlsxwriter
 
 # Workbook-wide defaults
 FORMAT_BOOK_DEFAULTS = {
-    'strings_to_numbers': True
+    'strings_to_numbers': True,
+    'use_zip64': True
 }
 
 # Format percentage cells (0.00%)
